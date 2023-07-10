@@ -1,0 +1,71 @@
+.ghost__social{
+    padding: 3rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ghost__social-heading{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: .75rem;
+}
+
+.ghost__social-text{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.ghost__social-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.5rem;
+}
+
+.ghost__social-gallery_image img{
+    /* height: 300px; */
+    box-shadow: 4px 4px #ecff00;
+    border: 2px solid #ecff00;
+    border-radius: 1rem;
+    width: 100%
+}
+
+.social{
+    font-size: 1;
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 992px){
+    .ghost__social-heading{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__social-heading{
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ghost__social-heading{
+        font-size: 55px;
+    }
+
+    .ghost__social{
+        padding:2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .ghost__social-heading {
+        font-size: 13vw;
+    }
+}

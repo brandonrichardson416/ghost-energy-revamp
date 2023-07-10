@@ -1,0 +1,137 @@
+.ghost__gallery{
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.swiper-thumbnail-container{
+    width: 100%;
+}
+
+.swiper-slide-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ghost__gallery_display img{
+    height: 400px;
+}
+
+.ghost__gallery_img-display{
+    height: 400px
+}
+
+.ghost__gallery_display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+}
+
+.ghost__gallery_options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+
+.ghost__gallery_option img{
+    height: 100px;
+    cursor: pointer;
+}
+
+.ghost__gallery_option img .selected{
+    border: 1px solid black;
+}
+
+.ghost__gallery_option img:hover{
+    -webkit-filter: brightness(150%);
+    filter: brightness(150%);
+    -moz-filter: brightness(150%);
+    -o-filter: brightness(150%);
+    -ms-filter: brightness(150%);
+}
+
+.swiper-slide-thumb-active img{
+    border: 2px solid black;
+}
+
+.ghost__gallery_img-thumb{
+    height: 100px;
+}
+
+.ghost__gallery_img-thumb.first{
+    padding: 0 26px;
+}
+
+@media only screen and (max-width: 992px){
+    .ghost__gallery_img-display{
+        height: 300px;
+    }
+
+    .ghost__gallery{
+        padding: 0rem 2rem;
+    }
+
+    .ghost__gallery_img-thumb{
+        height: 80px;
+    }
+
+    .ghost__gallery_img-thumb.first{
+        padding: 0 20px;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .ghost__gallery_img-thumb{
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__gallery{
+        margin-bottom: 1rem;
+        padding: 0 4rem;
+    }
+}
+
+
+@media only screen and (max-width: 530px){
+    .ghost__gallery{
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .ghost__gallery_img-display{
+        height: 297px;
+    }
+
+    .ghost__gallery_img-thumb{
+        height: 60px;
+    }
+
+    .ghost__gallery_img-thumb.first{
+        padding: 0 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 340px){
+    .ghost__gallery_img-display{
+        height: 237px;
+    }
+}

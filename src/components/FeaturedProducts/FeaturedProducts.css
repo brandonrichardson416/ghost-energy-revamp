@@ -1,0 +1,20 @@
+.ghost__featured-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 830px){
+    .ghost__featured-products{
+        grid-column-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__featured-products{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0rem;
+        grid-row-gap: 2rem;
+    }
+}

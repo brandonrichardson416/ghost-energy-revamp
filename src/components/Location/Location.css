@@ -1,0 +1,55 @@
+.ghost__location{
+    padding: 2rem 2rem;
+    border: 1px solid black;
+    width: 100%;
+    background: white;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px black;
+}
+
+.ghost__location_name{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+.ghost__location_address{
+    font-family: "Roboto";
+    margin-bottom: 1rem;
+}
+
+.ghost__location button{
+    font-family: "Roboto";
+    color: white;
+    background: black;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: .5rem .75rem;
+    cursor: pointer;
+}
+
+.ghost__location_view-btn-600{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    .ghost__location_name{
+        font-size: 18px;
+    }
+
+    .ghost__location_address{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ghost__location_view-btn-600{
+        display:block;
+    }
+
+    .ghost__location_view-btn{
+        display: none;
+    }
+}

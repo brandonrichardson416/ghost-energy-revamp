@@ -1,0 +1,132 @@
+.ghost__cart-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    width: 550px;
+    
+}
+
+.ghost__cart-item_img {
+    margin-right: 1.5rem;
+}
+
+.ghost__cart-item_img img{
+    height: 100px;
+}
+
+.ghost__cart-item_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ghost__cart-item_info_price{
+    font-family: "Roboto";
+}
+
+.ghost__cart-item_info_name{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.ghost__cart-item_info_pack{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.ghost__cart-item_quantity{
+    background: white;
+    padding: .75rem; 
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 125px;
+}
+
+.ghost__cart-item_quantity input{
+    width: 50%;
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__cart-item {
+        width: 490px;
+        
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ghost__cart-item {
+        flex-direction: column;
+        
+    }
+
+    .ghost__cart-item_info{
+        width: 85%;
+    }
+
+    .ghost__cart-item_img{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .ghost__cart-item_quantity{
+        max-width: 100px;
+    }
+
+    .ghost__cart-item_info{
+        width: 75%;
+    }
+
+    .ghost__cart-item_info_name {
+        font-size: 18px;
+    }
+
+    .ghost__cart-item_info_pack {
+        font-size: 16px;
+    }
+
+    .ghost__cart_checkout{
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .ghost__cart-item_info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ghost__cart-item{
+        width: 100%;
+    }
+
+    .ghost__cart-item_info_name{
+        text-align: center;
+    }
+
+    .ghost__cart-item_info_pack{
+        text-align: center;
+    }
+
+    .ghost__cart-item_info_price{
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+
+    .ghost__cart-item_quantity{
+        max-width: 150px;
+    }
+}

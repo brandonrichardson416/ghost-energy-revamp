@@ -1,0 +1,22 @@
+.ghost__productsection{
+    padding: 3rem 4rem;
+    background: #fafbff;
+}
+
+@media only screen and (max-width: 992px){
+    .ghost__productsection{
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__productsection{
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ghost__productsection{
+        padding: 1rem 0rem;
+    }
+}

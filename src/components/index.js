@@ -1,0 +1,13 @@
+export {default as FeaturedProduct} from './FeaturedProduct/FeaturedProduct';
+export {default as FeaturedProducts} from './FeaturedProducts/FeaturedProducts';
+export {default as Products} from './Products/Products';
+export {default as Product} from './Product/Product';
+export {default as Accordion} from './Accordion/Accordion';
+export {default as MoreProducts} from './MoreProducts/MoreProducts';
+export {default as Navbar} from './Navbar/Navbar';
+export {default as CartItem} from './CartItem/CartItem';
+export {default as Gallery} from './Gallery/Gallery';
+export {default as Location} from './Location/Location';
+export {default as MapController} from './MapController/MapController';
+export {default as Map} from './Map/Map';
+export {default as ScrollToTop} from './ScrollToTop/ScrollToTop';

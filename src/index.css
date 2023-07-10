@@ -1,0 +1,19 @@
+.ghost__cta{
+  outline: none;
+  border: none;
+  background: #2d89fa;
+  color: white;
+  font-family: "Roboto";
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 1s ease;
+  margin-bottom: 1rem;
+}
+
+.ghost__cta:hover{
+  background: red;
+}

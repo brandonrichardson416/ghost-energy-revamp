@@ -1,0 +1,18 @@
+.ghost__marquee{
+    padding: 1.5rem 0rem;
+    display: flex;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    overflow: hidden;
+}
+
+.ghost__marquee-text{
+    color: white;
+    text-transform: uppercase;
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    font-size: 30px;
+}
+
+.ghost__marquee-text:last-child{
+    margin-left: 2rem;
+}

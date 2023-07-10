@@ -1,0 +1,34 @@
+.accordion-item{
+    border-bottom: 2px solid black;
+    width: 50%;
+    cursor: pointer;
+}
+
+.accordion-title{
+    display: flex;
+    font-family: "Roboto";
+    font-weight: 600;
+    justify-content:space-between;
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.accordion-content{
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 992px){
+    .accordion-item{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .accordion{
+        margin-bottom: 3rem;
+    }
+}
+

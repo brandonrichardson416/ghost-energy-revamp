@@ -1,0 +1,64 @@
+.ghost__cart{
+    padding: 2rem 6rem;
+    background: #fafbff;
+    min-height: 100vh;
+}
+
+.ghost__cart-heading{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.ghost__cart_checkout h4{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    font-size: 18px;
+}
+
+.ghost__cart_checkout button{
+    background: black;
+    color: white;
+    font-family: "Roboto";
+    padding: .75rem 1.5rem;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ghost__cart_cart-text{
+    font-family: "Roboto";
+    margin-bottom: 1rem;
+}
+
+.ghost__cart_checkout h4{
+    margin-bottom: 1rem;
+}
+
+.ghost__cart_checkout-btn{
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__cart{
+        padding: 2rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .ghost__cart-heading{
+        text-align: center;
+    }
+
+    .ghost__cart{
+        padding: 2rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .ghost__cart{
+        padding: 2rem 1rem;
+    }
+}

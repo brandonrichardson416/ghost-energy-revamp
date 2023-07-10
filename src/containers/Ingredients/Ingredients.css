@@ -1,0 +1,165 @@
+.ghost__ingredients{
+    background: #fafbff;
+    padding: 3rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    grid-column-gap: 2rem;
+}
+
+.ghost__ingredients-image img{
+   width: 450px;
+   vertical-align: middle;
+   box-shadow: 4px 4px #ecff00;
+    border: 2px solid #ecff00;
+    border-radius: 1rem;
+}
+
+
+.ghost__ingredients-subheading{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 2.75rem;
+}
+
+.ghost__ingredients-heading{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 3rem;
+    margin-left: -.5rem;
+}
+
+.ghost__ingredients-heading:last-child{
+    margin-bottom: 1rem;
+}
+
+.ghost__ingredients-text{
+    font-family: "Roboto";
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.ghost__ingredients-content ul{
+    /* margin-left: .1rem; */
+    list-style-type: none;
+}
+
+.ghost__ingredients-content li{
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-bottom: .75rem;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.ghost__ingredients-content li:last-child{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px){
+    .ghost__ingredients-image img{
+        width: 390px;
+    }
+
+    .ghost__ingredients{
+        padding: 3rem 4rem;
+    }
+
+    .ghost__ingredients-heading{
+        font-size: 58px;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width: 840px){
+
+    .ghost__ingredients-image img{
+        width: 358px;
+    }
+
+    .ghost__ingredients-heading{
+        font-size: 52px;
+        line-height: 1.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .ghost__ingredients{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ghost__ingredients-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .ghost__ingredients-image img{
+        margin-bottom: 1rem;
+    }
+
+    .ghost__ingredients-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ghost__ingredients-text{
+        text-align: center;
+        width: auto;
+    }
+
+    .ghost__ingredients-heading{
+        text-align: center;
+    }
+
+    .ghost__ingredients-subheading{
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .ghost__ingredients-heading{
+        font-size: 55px;
+        line-height: 2rem;
+    }
+
+    .ghost__ingredients-subheading{
+        font-size: 20px;
+    }
+
+    .ghost__ingredients-image img{
+        width: 270px;
+    }
+
+    .ghost__ingredients-text{
+        font-size: 18px;
+    }
+
+    .ghost__ingredients{
+        padding: 3rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .ghost__ingredients-heading {
+        font-size: 13vw;
+        line-height: 3.5vh;
+    }
+
+    .ghost__ingredients-subheading {
+        font-size: 7vw;
+    }
+
+}

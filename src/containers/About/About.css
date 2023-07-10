@@ -1,0 +1,383 @@
+.ghost__about{
+    background: #fafbff;
+    padding: 3rem 6rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+.ghost__about-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ghost__about-img_container{
+    position: relative;
+    display: block;
+    height: 500px;
+}
+
+.ghost__about-subheading{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 2.75rem;
+}
+
+.ghost__about-heading{
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 3rem;
+    margin-left: -.5rem;
+}
+
+.ghost__about-heading:last-child{
+    margin-bottom: 1rem;
+}
+
+.ghost__about-text{
+    font-family: "Roboto";
+    width: 70%;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.ghost__about-img_hand_left img{
+    height: 110px;
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    bottom: auto;
+    display: inline-block;
+}
+
+.ghost__about-img_hand_right img{
+    height: 130px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    display: inline-block;
+}
+
+.ghost__about-img_trop_can img{
+    height: 170px;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 30%;
+    top: 19rem;
+}
+
+.ghost__about-img_cott_can img{
+    height: 170px;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 30%;
+    top: 13rem;
+}
+
+.ghost__about-img_red_can img{
+    height: 160px;
+    position: absolute;
+    transform: rotate(16deg);
+    right: 30%;
+    top: 7rem;
+}
+
+@media only screen and (max-width: 992px){
+    .ghost__about-heading{
+        font-size: 80px;
+        line-height: 4rem;
+    }
+
+    .ghost__about-subheading{
+        font-size: 25px;
+    }
+
+    .ghost__about-img_hand_left img{
+        height: 100px;
+    }
+
+    .ghost__about-img_cott_can img{
+        height: 150px;
+        /* left: 9rem; */
+    }
+
+    .ghost__about-img_trop_can img{
+        height: 150px;
+        /* left: 16rem; */
+    }
+
+    .ghost__about-img_red_can img{
+        height: 140px;
+        /* left: 15rem; */
+    }
+
+    .ghost__about-img_hand_right img{
+        height: 130px;
+        /* left: 20rem; */
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .ghost__about{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        grid-row-gap: 10px;
+    }
+
+    .ghost__about-content{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ghost__about-heading{
+        text-align: center;
+    }
+
+    .ghost__about-subheading{
+        text-align: center;
+    }
+
+    .ghost__about-text{
+        text-align: center;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+
+    .ghost__about-img_hand_left img{
+        height: 90px;
+        position: absolute;
+        top: 25rem;
+        bottom: auto;
+        display: inline-block;
+        right: auto;
+        left: 4rem;
+    }
+    
+    .ghost__about-img_hand_right img{
+        height: 120px;
+        position: absolute;
+        left: auto;
+        right: 4rem;
+        display: inline-block;
+    }
+    
+    .ghost__about-img_trop_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(25deg);
+        left: auto;
+        right: 13rem; 
+        top: 19rem;
+    }
+    
+    .ghost__about-img_cott_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(-15deg);
+        left: 13rem;
+        right: auto;
+        top: 13rem;
+    }
+    
+    .ghost__about-img_red_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(16deg);
+        left: auto;
+        right: 13rem;
+        top: 8rem;
+    }
+  
+}
+
+
+@media only screen and (max-width: 768px){
+    .ghost__about-img_hand_left img{
+        height: 90px;
+        position: absolute;
+        top: 25rem;
+        bottom: auto;
+        display: inline-block;
+        right: auto;
+        left: 0;
+    }
+    
+    .ghost__about-img_hand_right img{
+        height: 120px;
+        position: absolute;
+        left: auto;
+        right: 0;
+        display: inline-block;
+    }
+    
+    .ghost__about-img_trop_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(25deg);
+        left: auto;
+        right: 30%; 
+        top: 19rem;
+    }
+    
+    .ghost__about-img_cott_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(-15deg);
+        left: 30%;
+        right: auto;
+        top: 13rem;
+    }
+    
+    .ghost__about-img_red_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(16deg);
+        left: auto;
+        right: 30%;
+        top: 8rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .ghost__about-heading{
+        font-size: 55px;
+        line-height: 2rem;
+    }
+
+    .ghost__about-subheading{
+        font-size: 20px;
+    }
+
+    .ghost__about {
+        padding: 3rem 2rem;
+    }
+
+    .ghost__about-img_hand_left img{
+        height: 90px;
+        position: absolute;
+        top: 25rem;
+        bottom: auto;
+        display: inline-block;
+        /* right: 9em; */
+    }
+    
+    .ghost__about-img_hand_right img{
+        height: 120px;
+        position: absolute;
+        left: auto;
+        right: 0;
+        display: inline-block;
+    }
+    
+    .ghost__about-img_trop_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(25deg);
+        left: 14rem;
+        top: 19rem;
+    }
+    
+    .ghost__about-img_cott_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(-15deg);
+        left: 6rem;
+        top: 13rem;
+    }
+    
+    .ghost__about-img_red_can img{
+        height: 120px;
+        position: absolute;
+        transform: rotate(16deg);
+        left: 13rem;
+        top: 8rem;
+    }
+
+    .ghost__about-text{
+        font-size: 18px;
+    }
+
+    .ghost__about-img_container{
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 445px){
+    .ghost__about-heading{
+        font-size: 70px;
+        line-height: 3rem;
+    }
+
+    .ghost__about-subheading{
+        font-size: 20px;
+    }
+
+    .ghost__about-img_hand_left img{
+        height: 70px;
+        position: absolute;
+        top: 22rem;
+        bottom: auto;
+        display: inline-block;
+        right: 9em;
+    }
+    
+    .ghost__about-img_hand_right img{
+        height: 90px;
+        position: absolute;
+        left: 11rem;
+        right: auto;
+        display: inline-block;
+    }
+    
+    .ghost__about-img_trop_can img{
+        height: 100px;
+        position: absolute;
+        transform: rotate(25deg);
+        left: 8rem;
+        top: 16rem;
+    }
+    
+    .ghost__about-img_cott_can img{
+        height: 100px;
+        position: absolute;
+        transform: rotate(-15deg);
+        left: 4rem;
+        top: 10rem;
+    }
+    
+    .ghost__about-img_red_can img{
+        height: 100px;
+        position: absolute;
+        transform: rotate(16deg);
+        left: 9rem;
+        top: 6rem;
+    }
+
+    .ghost__about-text{
+        font-size: 16px;
+
+    }
+
+    .ghost__about-img_container{
+        height: 440px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .ghost__about-img_container{
+        width: 100%;
+    }
+
+    .ghost__about-heading {
+        font-size: 39px;
+        line-height: 1.5rem;
+    }
+}

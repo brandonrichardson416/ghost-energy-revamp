@@ -1,0 +1,121 @@
+.ghost__hero{
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.ghost__hero-title{
+    font-size: 160px;
+    text-align: center;
+    color: white;
+    line-height: .95em;
+    margin-top: -2px;
+    margin-bottom: -80px;
+    width: 80vw;
+    z-index: 2;
+}
+
+.ghost__hero-subheading{
+    font-size: 20px;
+    color: white;
+    font-family: "FuturaPT-Condensed-Extra-Bold";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ghost__hero-image img{
+    height: 340px;
+}
+
+.ghost__hero-image{
+    position: relative;
+    z-index: 3;
+}
+
+.ghost__hero-cta{
+    outline: none;
+    border: none;
+    background: #2d89fa;
+    color: white;
+    font-family: "Roboto";
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 1s ease;
+}
+
+.ghost__hero-cta:hover{
+    background: red;
+
+}
+
+@media only screen and (max-width: 992px){
+    .ghost__hero-title{
+        font-size: 140px;
+    }
+
+    .ghost__hero-image img{
+        height: 310px;
+    }
+
+    .ghost__hero-subheading{
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .ghost__hero-title{
+        font-size: 100px;
+    }
+
+    .ghost__hero-image img{
+        height: 280px;
+    }
+
+    .ghost__hero-subheading{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .ghost__hero-title{
+        font-size: 70px;
+        margin-bottom: -45px;
+    }
+
+    .ghost__hero-image img{
+        height: 180px;
+    }
+
+    .ghost__hero-subheading{
+        font-size: 17px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 425px){
+    .ghost__hero-title{
+        font-size: 16vw;
+        margin-bottom: -30px;
+    }
+
+    .ghost__hero-subheading{
+        font-size: 5vw;
+    }
+
+    .ghost__hero-cta{
+        font-size: 4vw;
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+}
